@@ -7,6 +7,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     components,
     directives,
     ssr: true,
+    defaults: { VBtn: { flat: true } },
   });
   nuxtApp.vueApp.use(vuetify);
 });
